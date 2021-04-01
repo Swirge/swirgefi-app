@@ -54,7 +54,7 @@ const fetchCoingecko = async ids => {
 
 const fetchPancake = async () => {
   try {
-    const response = (await axios.get(`http://api.swirge.com/prices`)).data;
+    const response = (await axios.get(`https://api.swirge.com/prices`)).data;
     // return response.data;
     const data = {...response, BIFI: response.SWGb};
     return data
@@ -66,7 +66,7 @@ const fetchPancake = async () => {
 
 const fetchLP = async () => {
   try {
-    const response = await axios.get(`http://api.swirge.com/lps?_=1616165176`);
+    const response = await axios.get(`https://api.swirge.com/lps?_=1616165176`);
     return response.data;
   } catch (err) {
     console.error(err);
@@ -76,7 +76,7 @@ const fetchLP = async () => {
 
 const fetchBakery = async () => {
   try {
-    const response = await (await (axios.get(`http://api.swirge.com/prices`))).data;
+    const response = await (await (axios.get(`https://api.swirge.com/prices`))).data;
 
     const data = {...response, BIFI: response.SWGb};
     return data;
