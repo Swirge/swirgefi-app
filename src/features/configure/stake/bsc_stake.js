@@ -97,4 +97,35 @@ export const bscStakePools = [
     },
   },
 
+  {
+    id: 'bifi-lead',
+    name: 'SWGB',
+    logo: 'single-assets/BIFI.png',
+    token: 'SWGB',
+    tokenDecimals: 18,
+    tokenAddress: '0xe40255c5d7fa7ceec5120408c78c787cecb4cfdb',
+    tokenOracle: 'pancake',
+    tokenOracleId: 'SWGB',
+    earnedToken: 'LEAD',
+    earnedTokenDecimals: 18,
+    earnedTokenAddress: '0x2ed9e96EDd11A1fF5163599A66fb6f1C77FA9C66',
+    earnContractAddress: '0x7f38E3F4c7e236b2A9eb22fAa6a7756E3e7b1A54',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'pancake',
+    earnedOracleId: 'LEAD',
+    partnership: false,
+    status: 'active',
+    hideCountdown: true,
+    partner: {
+      logo: 'stake/beefy/beefyfinance.png',
+      background: 'stake/beefy/background.png',
+      text:
+        "Swirge is focused on building decentralized products, to decentralize social media, e-commerce, and finance. Swirge Finance is a Yield Optimizer and Staking Platform built on the Binance Smart Chain with Multi-chain support ( Avalanche and Huobi Eco Chain ). Swirge has its own token. Swirge tokens exist both on the Ethereum blockchain as ($SWG) and on the Binance Smart Chain as ($SWGb). Everyone who holds our own $SWGb token can create and vote on proposals, they also get a share of all harvests done, every hour, every day on all our vaults. That's a lot of BNB that goes straight to our $SWGb holders. All you have to do is stake your $SWGb in this vault, it’s that simple, come back and harvest your BNB whenever you need it! (You can still vote on proposals even though you have staked your $SWGb here).",
+      website: 'https://finance.swirge.com',
+      social: {
+        telegram: 'http://t.me/swirgepay',
+        twitter: 'https://twitter.com/swirgenetwork',
+      },
+    },
+  },
 ];
