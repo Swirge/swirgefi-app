@@ -105,7 +105,7 @@ export const bscStakePools = [
     tokenDecimals: 18,
     tokenAddress: '0xe40255c5d7fa7ceec5120408c78c787cecb4cfdb',
     tokenOracle: 'pancake',
-    tokenOracleId: 'SWGB',
+    tokenOracleId: 'BIFI',
     earnedToken: 'LEAD',
     earnedTokenDecimals: 18,
     earnedTokenAddress: '0x2ed9e96EDd11A1fF5163599A66fb6f1C77FA9C66',
