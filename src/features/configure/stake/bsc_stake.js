@@ -149,7 +149,7 @@ export const bscStakePools = [
     status: 'active',
     hideCountdown: false,
     partner: {
-      logo: 'stake/beefy/beefyfinance.png',
+      logo: 'stake/beefy/safeprotocol.png',
       background: 'stake/beefy/background.png',
       text:
         "A First Blockchain Socio-Political Media Platform that supports community building, poverty alleviation and reduction, voting, economic growth, basic social and economic needs and sustainment of a democratic and all-inclusive society thus allowing social interaction amongst citizens and politicians with cryptocurrency rewards.",
