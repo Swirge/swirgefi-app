@@ -128,4 +128,36 @@ export const bscStakePools = [
       },
     },
   },
+
+  {
+    id: 'bifi-safep',
+    name: 'SAFEP',
+    logo: 'single-assets/BIFI.png',
+    token: 'SWGB',
+    tokenDecimals: 18,
+    tokenAddress: '0xe40255c5d7fa7ceec5120408c78c787cecb4cfdb',
+    tokenOracle: 'pancake',
+    tokenOracleId: 'BIFI',
+    earnedToken: 'SAFEP',
+    earnedTokenDecimals: 18,
+    earnedTokenAddress: '0xA8c514D991F59baB02d32b68f04204cB89261c88',
+    earnContractAddress: '0x5342A93851AA202b24A8Fa5f155db9299c2036Ca',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'pancake',
+    earnedOracleId: 'SAFEP',
+    partnership: true,
+    status: 'active',
+    hideCountdown: false,
+    partner: {
+      logo: 'stake/beefy/beefyfinance.png',
+      background: 'stake/beefy/background.png',
+      text:
+        "A First Blockchain Socio-Political Media Platform that supports community building, poverty alleviation and reduction, voting, economic growth, basic social and economic needs and sustainment of a democratic and all-inclusive society thus allowing social interaction amongst citizens and politicians with cryptocurrency rewards.",
+      website: 'https://safeprotocol.io/',
+      social: {
+        telegram: 'https://t.me/SafeProtocolGlobal/',
+        twitter: 'https://twitter.com/SafeProtocol/',
+      },
+    },
+  },
 ];
