@@ -39,7 +39,7 @@ export const bscPools = [
     oracle: 'lps',
     oracleId: 'cake-swgb-bnb',
     oraclePrice: 0,
-    depositsPaused: false,
+    depositsPaused: true,
     status: 'active',
     platform: 'Pancake',
     assets: ['SWGB', 'BNB'],
