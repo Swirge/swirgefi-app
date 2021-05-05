@@ -2,6 +2,38 @@ import { govPoolABI } from '../abi';
 
 export const bscStakePools = [
   {
+    id: 'bifi-tff',
+    name: 'SWGB',
+    logo: 'single-assets/BIFI.png',
+    token: 'SWGB',
+    tokenDecimals: 18,
+    tokenAddress: '0xe40255c5d7fa7ceec5120408c78c787cecb4cfdb',
+    tokenOracle: 'pancake',
+    tokenOracleId: 'BIFI',
+    earnedToken: 'TFF',
+    earnedTokenDecimals: 18,
+    earnedTokenAddress: '0x2d69c55baEcefC6ec815239DA0a985747B50Db6E',
+    earnContractAddress: '0xD715f4b7D08dae3c9CF038dC07913A2aE37c23c5',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'pancake',
+    earnedOracleId: 'WBNB',
+    partnership: false,
+    status: 'active',
+    hideCountdown: false,
+    partner: {
+      logo: 'stake/beefy/tff.svg',
+      background: 'stake/beefy/background.png',
+      text:
+        "Tutti Frutti Finance",
+      website: 'https://tuttifrutti.finance/',
+      social: {
+        telegram: 'https://t.me/TuttifruttiFi',
+        twitter: 'https://twitter.com/TuttifruttiFi',
+      },
+    },
+  },
+
+  {
     id: 'bifi-bnb',
     name: 'SWGB',
     logo: 'single-assets/BIFI.png',
